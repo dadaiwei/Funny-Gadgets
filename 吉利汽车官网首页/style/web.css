@@ -461,7 +461,7 @@ body {
 	height: 650px;
 	background: #39C;
 	position: relative;
-	width: 100%;
+	width:1350px;
 	z-index: 1;
 	position:relative;
 	overflow:hidden;
@@ -559,6 +559,7 @@ body {
 	background: url(../images/news_bg.jpg);
 	overflow: hidden;
 	display:block;
+	width:1350px;
 }
 .news .nc .btn {
 	width: 30px;

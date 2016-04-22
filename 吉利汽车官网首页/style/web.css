@@ -17,7 +17,7 @@ body {
 	background: #FFF;
 	position: absolute;
 	height: 70px;
-	width: 100%;
+	width: 1350px;
 	top: 0;
 	z-index: 2;
 }
@@ -463,8 +463,6 @@ body {
 	position: relative;
 	width:1350px;
 	z-index: 1;
-	position:relative;
-	overflow:hidden;
 }
 .banner .img{
 	position:absolute;
@@ -476,7 +474,6 @@ body {
 	float:left;
 	height:650px;
 	width:1440px;
-	overflow:hidden;
 }
 .banner .img li  img{
 	height:650px;

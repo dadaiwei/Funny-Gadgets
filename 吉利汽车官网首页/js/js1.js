@@ -3,7 +3,7 @@ function lunbo1(){
 	var banner = document.getElementsByClassName("banner")[0];
 	var ul = document.getElementById("img");
 	var lis = document.getElementById("btn").getElementsByTagName("li");
-	var interval = 2000;
+	var interval = 3000;
 	var timer;
 	var animated = false;
 	var index2;

@@ -476,6 +476,11 @@ body {
 	float:left;
 	height:650px;
 	width:1440px;
+	overflow:hidden;
+}
+.banner .img li  img{
+	height:650px;
+	width:1440px;
 }
 .banner .btn {
 	position: absolute;

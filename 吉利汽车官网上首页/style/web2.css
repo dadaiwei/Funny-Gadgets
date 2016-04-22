@@ -1,0 +1,6 @@
+/* CSS Document */
+*{padding:0; margin:0; list-style:none; text-decoration:none; color:#666; font-size;12px; font-family:"微软雅黑","黑体"; line-height:1em;}
+.header{height:72px; background:#FC6;}
+.banner{height:580px; background:#009;}
+.news{height:150px; background:url(../images/news_bg.jpg);}
+.footer{height:300px; background:#0FF;}

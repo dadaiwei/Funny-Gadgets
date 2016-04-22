@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>无标题文档</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style>
+.div{width:550px; height:290px; border:2px solid #333;}
+.div1{width:140px; height:290px; background:#F00;}
+.div2{width:140px; height:290px; background:#030;}
+.div3{width:270px; height:290px; background:#009;}
+.div1,.div2,.div3{float:left;}
+</style>
+</head>
+
+<body>
+	<div class="div">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+    </div>
+</body>
+</html>

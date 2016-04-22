@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* pager style */
+.page{
+	padding:10px 0;
+	font-size:12px;
+	font-weight:bold;
+	line-height:22px;
+	text-align:center;
+	clear:both;}
+.page a{
+	text-decoration:none;
+	color:#8698b6;
+	background:#fff;
+	border:1px solid #CCCCCC;
+	padding:3px 6px;
+	padding-bottom:2px;
+	margin-right:3px}
+.page a.active{
+	background:#0064AC;
+	border:1px solid #0064AC;
+	color:#fff}
+.page a:hover{
+	text-decoration:none;
+	color:#fff;
+	background:#0064AC;
+	border:1px solid #0064AC}

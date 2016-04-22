@@ -463,13 +463,13 @@ body {
 	position: relative;
 	width:1350px;
 	z-index: 1;
+	overflow:hidden;
 }
 .banner .img{
 	position:absolute;
 	width:17280px;
 	top:0;
 	height:650px;
-	overflow:hidden;
 }
 .banner .img li {
 	float:left;

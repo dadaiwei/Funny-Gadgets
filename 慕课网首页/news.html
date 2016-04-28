@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,, maximum-scale=1.0, user-scalable=1">
+		<title></title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="js/mf-pattern/mF_fancy.css">
+	</head>
+	<body>
+		<!--top部分-->
+		<div id="top">
+			<div class="top_content">
+				<ul>
+					<li>
+						<a href="#" onclick="SetHome(window.location)">设为首页</a>											
+					</li>
+					<li>
+						<a href="#" onclick="AddFavorite(window.location,window.title)">加入收藏</a>
+					</li>
+					<li>
+						<a href="#">联系我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--wrap部分-->
+		<div id="wrap">
+			<!--logo部分-->
+			<div class="logo">
+				<div class="logo_left">
+					<img src="images/logo.jpg" alt="慕课网"/>
+				</div>
+				<div class="logo_right">
+					<img src="images/tel.jpg" alt="服务热线"/>24小时服务热线:<span class="tel">123-456-7890</span>
+				</div>
+			</div>
+			<!--nav部分-->
+			<div class="nav">
+				<div class="nav_bar">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#">关于慕课</a></li>
+						<li><a href="#">新闻动态</a></li>
+						<li><a href="#">课程中心</a></li>
+						<li><a href="#">在线课程</a></li>
+						<li><a href="#">人才招聘</a></li>
+					</ul>
+					<form method="post">
+						<input type="text" name="search" class="search"> 
+					</form>
+				</div>
+			</div>
+			<!--add部分-->
+			<div class="ad" id="picBox" style="height:213px;">
+				<img src="images/ad.jpg"/>
+			</div>
+			
+			<div class="list_main">
+				<div class="news_type">
+					<h2>新闻中心</h2>
+					<div class="news_type_content">
+						<ul>
+							<li><a href="list.html">公司新闻</a></li>
+							<li><a href="list.html">行业新闻</a></li>
+							<li><a href="list.html">媒体报道</a></li>
+							<li><a href="list.html">活动专题</a></li>
+							<li><a href="list.html">精彩视频</a></li>
+							<li><a href="list.html">资源下载</a></li>
+							<li><a href="list.html">公司内刊</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="list_box">
+					<h2>新闻中心</h2>
+					<h1>慕课网获App Store强力推荐 荣登四榜单</h1>
+					<p class="list_box_newsInfo">发布人：Admin 发布时间：2014-08-01 浏览：5321次</p>
+					<div class="list_box_newsContent">
+						<p> 8月伊始，慕课网App即获得了App Store的多个推荐，同时出现在“免费App精选”、“致毕业生”、“学而不倦”以及“轻松学编程”四个榜单中。这款IT编程学习类的App为何如此备受青睐？趣味视频课程、高清画面质感、在线离线随身学习……优质的课程内容结合良好的用户体验，慕课网App无疑是IT学习的最佳选择。</p>
+				        <p> <b>App Store力荐 慕课网荣登四榜单</b>     </p>
+				        <p>App Store因公平著称，能被其推荐是每一款App梦寐以求的荣誉，慕课网则一举占据了其四个榜单，包括精品推荐首页“合集”版块下“免费App精选”中的“新品”推荐、“合集”版块“致毕业生”中“学无止境”推荐、教育类别“合集”版块下“学而不倦”中的推荐以及“轻松学编程”版块推荐。     </p>
+				        <p align="center"><img src="images/app1.jpg" width="500" height="420" alt=""/></p>
+				        <p>事实上，慕课网登上App Store榜单并非首次。早在2014年5月，慕课网就荣登App Store 精品推荐榜首，同时登上“教育”类别下“优秀新App”榜首，并获评“五月最佳”精彩App。随后，慕课网App接连出现在“致毕业生”、“免费App精选”、“夏日学堂”等榜单中。</p>
+				        <p> 从App Store的持续推荐以及“优秀”、“精选”的肯定中不难看出，慕课网在IT在线学习领域以及教育类App中得到了用户的认可。     </p>
+				        <p><b>新功能上线 持续提升用户体验</b>     </p>
+				        <p>一款好的产品同样需要不断改进来满足用户需求。慕课网App上线至今进行了多个版本的迭代，不断完善产品、提升用户体验，ios最新的2.1.0版本于7月20日更新，上线了大量新功能。</p>
+				        <p> 明确、清晰的课程分类能够让用户迅速找到感兴趣的课程，本次慕课网就上线了全新的课程分类方式，点击“全部课程”即可显示出全部的技术语言种类以及视频课程数量，全部在线课程一目了然。     </p>
+				        <p>不知道讲师在哪里？此版本更新中添加了讲师认证，不仅对讲师空间进行了认证，在课程讨论和笔记中，通过认证标识，一眼可以看到哪个是讲师回复。     </p>
+				        <p>此外，慕课网App在最新版本中调整了下拉刷新和上拉加载的效果；课程练习部分增加了习题解析；对半透化效果、全屏播放器按钮进行了优化，并新增了编程课、ps课程。一系列的改进相信能为IT学习用户带来更好的学习体验。</p>
+				        <p> 慕课网App在精品视频课程的基础上，不断优化用户体验，帮助IT学习者迅速入门、提升技能，以优秀的产品基因获得App Store的多个推荐，使更多用户有机会使用这款IT学习软件，体验学习的简单和快捷。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer_content">
+				<ul>
+					<li><a href="#">关于</a>
+						<ul>
+							<li><a href="#">品牌故事</a></li>
+							<li><a href="#">联系我们</a></li>
+							<li><a href="#">加入我们</a></li>
+							<li><a href="#">版权声明</a></li>
+						</ul>
+					</li>
+					<li><a href="#">课程</a>
+						<ul>
+							<li><a href="#">PHP开发</a></li>
+							<li><a href="#">前端开发</a></li>
+							<li><a href="#">JAVA开发</a></li>
+							<li><a href="#">Android开发</a></li>
+						</ul>
+					</li>
+					<li><a href="#">关注</a>
+						<ul>
+							<li><a href="#">新浪微博</a></li>
+							<li><a href="#">腾讯微博</a></li>
+							<li><a href="#">企业微信</a></li>
+							<li><a href="#">QQ空间</a></li>
+						</ul>
+					</li>
+					<li><a href="#">留言</a>
+						<ul>
+							<li><a href="#">意见反馈</a></li>
+							<li><a href="#">问题留言</a></li>
+							<li><a href="#">媒体联络</a></li>
+							<li><a href="#">在线客服</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><img src="images/weixin.png" />微信关注</a>
+						<ul>
+							<li><img src="images/qrcode.jpg" /></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<script src="js/setHomeSetFav.js" charset="gb2312"></script>
+	<script src="js/myfocus-2.0.1.min.js"></script> 
+	<script src="js/mf-pattern/mF_fancy.js"></script>
+	</body>
+</html>

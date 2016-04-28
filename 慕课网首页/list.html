@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,, maximum-scale=1.0, user-scalable=1">
+		<title></title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="js/mf-pattern/mF_fancy.css">
+	</head>
+	<body>
+		<!--top部分-->
+		<div id="top">
+			<div class="top_content">
+				<ul>
+					<li>
+						<a href="#" onclick="SetHome(window.location)">设为首页</a>											
+					</li>
+					<li>
+						<a href="#" onclick="AddFavorite(window.location,window.title)">加入收藏</a>
+					</li>
+					<li>
+						<a href="#">联系我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--wrap部分-->
+		<div id="wrap">
+			<!--logo部分-->
+			<div class="logo">
+				<div class="logo_left">
+					<img src="images/logo.jpg" alt="慕课网"/>
+				</div>
+				<div class="logo_right">
+					<img src="images/tel.jpg" alt="服务热线"/>24小时服务热线:<span class="tel">123-456-7890</span>
+				</div>
+			</div>
+			<!--nav部分-->
+			<div class="nav">
+				<div class="nav_bar">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#">关于慕课</a></li>
+						<li><a href="#">新闻动态</a></li>
+						<li><a href="#">课程中心</a></li>
+						<li><a href="#">在线课程</a></li>
+						<li><a href="#">人才招聘</a></li>
+					</ul>
+					<form method="post">
+						<input type="text" name="search" class="search"> 
+					</form>
+				</div>
+			</div>
+			<!--add部分-->
+			<div class="ad" id="picBox" style="height:213px;">
+				<img src="images/ad.jpg"/>
+			</div>
+			
+			<div class="list_main">
+				<div class="news_type">
+					<h2>新闻中心</h2>
+					<div class="news_type_content">
+						<ul>
+							<li><a href="list.html">公司新闻</a></li>
+							<li><a href="list.html">行业新闻</a></li>
+							<li><a href="list.html">媒体报道</a></li>
+							<li><a href="list.html">活动专题</a></li>
+							<li><a href="list.html">精彩视频</a></li>
+							<li><a href="list.html">资源下载</a></li>
+							<li><a href="list.html">公司内刊</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="list_box">
+					<h2>新闻中心</h2>
+					<div class="news_list">
+						<ul>
+							<li><span>2014-06-01</span><a href="news.html">【慕课访谈 用户篇】"有为屌丝"在路上</a></li>
+							<li><span>2014-06-01</span><a href="news.html">【有奖活动】给父亲的三行书信</a></li>
+							<li><span>2014-05-28</span><a href="news.html">《程序猿，请晒出你的童年》活动获奖公告</a></li>
+							<li><span>2014-05-27</span><a href="news.html">【慕课访谈】破茧成蝶————美女程序员的蜕变史</a></li>
+							<li><span>2014-05-26</span><a href="news.html">【慕课访谈 用户篇】"有为屌丝"在路上</a></li>
+							<li><span>2014-05-25</span><a href="news.html">【有奖活动】给父亲的三行书信</a></li>
+							<li><span>2014-05-23</span><a href="news.html">《程序猿，请晒出你的童年》活动获奖公告</a></li>
+							<li><span>2014-05-20</span><a href="news.html">【慕课访谈】破茧成蝶————美女程序员的蜕变史</a></li>
+						</ul>
+					</div>
+					<div class="page">
+						<a href="#">首页</a><a href="#">&lt;</a><a href="#">1</a><a href="#">2
+						</a><a href="#">3</a><a href="#">...</a><a href="#">&gt;</a><a href="#">末页</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer_content">
+				<ul>
+					<li><a href="#">关于</a>
+						<ul>
+							<li><a href="#">品牌故事</a></li>
+							<li><a href="#">联系我们</a></li>
+							<li><a href="#">加入我们</a></li>
+							<li><a href="#">版权声明</a></li>
+						</ul>
+					</li>
+					<li><a href="#">课程</a>
+						<ul>
+							<li><a href="#">PHP开发</a></li>
+							<li><a href="#">前端开发</a></li>
+							<li><a href="#">JAVA开发</a></li>
+							<li><a href="#">Android开发</a></li>
+						</ul>
+					</li>
+					<li><a href="#">关注</a>
+						<ul>
+							<li><a href="#">新浪微博</a></li>
+							<li><a href="#">腾讯微博</a></li>
+							<li><a href="#">企业微信</a></li>
+							<li><a href="#">QQ空间</a></li>
+						</ul>
+					</li>
+					<li><a href="#">留言</a>
+						<ul>
+							<li><a href="#">意见反馈</a></li>
+							<li><a href="#">问题留言</a></li>
+							<li><a href="#">媒体联络</a></li>
+							<li><a href="#">在线客服</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><img src="images/weixin.png" />微信关注</a>
+						<ul>
+							<li><img src="images/qrcode.jpg" /></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<script src="js/setHomeSetFav.js" charset="gb2312"></script>
+	<script src="js/myfocus-2.0.1.min.js"></script> 
+	<script src="js/mf-pattern/mF_fancy.js"></script>
+	</body>
+</html>

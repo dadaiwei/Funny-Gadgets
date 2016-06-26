@@ -111,7 +111,6 @@ canvas{
 @media screen and (max-width:360px){
 	.stage2{
 		top:520px;
-		left:50%;
-		margin-left:-100px;
+		left:70px;
 	}
 }

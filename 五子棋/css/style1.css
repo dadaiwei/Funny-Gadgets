@@ -108,3 +108,9 @@ canvas{
 	margin-top:40px;
 	color:#130D8E;
 }
+@media screen and (max-width:360px){
+	.stage2{
+		top:520px;
+		left:50px;
+	}
+}

@@ -1,0 +1,79 @@
+body{
+	background:url(../images/bg1.jpg) left top no-repeat;
+	background-size: 100% auto; 
+}
+.stage1{
+	height:400px;
+	width:500px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-250px;
+	margin-top:-200px;
+	text-align: center;
+	overflow: hidden;
+	background:url(../images/background.jpg) left top;
+	border-radius:20px;
+	box-shadow: 3px 3px 3px #0000FF;
+}
+
+.stage1>h1{
+	margin-top:75px;
+	font-weight:bold;
+	font-size:38px;
+	font-family: "微软雅黑";
+	letter-spacing: 3px;
+	color:#FFFFE5;
+}
+.stage1>#start,.stage1>#end{
+	height:60px;
+	width:220px;
+	margin:10px auto;
+}
+.stage1>#start{
+	margin:40px auto 10px;
+}
+.stage1 #start>button,.stage1 #end>button{
+	height:46px;
+	width:190px;
+	font-size:25px;
+	background:#81A8CE;
+	color:#FFF38F;
+	font-weight:bold;
+	border-radius:5px;
+}
+.stage1 #start>#restartGame{
+	display: none;
+}
+#quitGame{
+	width:320px;
+	height:180px;
+	border-radius:10px;
+	background:#FFFFE5;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-160px;
+	margin-top:-90px;
+	text-align: center;
+	box-shadow: 2px 2px 5px #EFEFEF;
+}
+#quitGame h1{
+	font-size:20px;
+	margin-top:48px;
+	color:#009A2C;
+	font-weight:bold;
+}
+#quitGame div{
+	height:60px;
+	width:200px;
+	margin:30px auto;
+}
+#quitGame div button{
+	width:75px;
+	height:35px;
+	font-size:17px;
+	color:#0000FF;
+	font-weight:bold;
+	margin:0 5px;
+}

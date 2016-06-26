@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>五子棋对战页面</title>
+		<link rel="stylesheet" href="css/style1.css">
+	</head>
+	<body>
+		<div id="welcome" class="stage2">
+			<h1>欢迎您玩五子棋</h1>
+			<div id="start">
+				<button id="restartGame">重新开始游戏</button>
+			</div>
+			<div id="end">
+				<button id="endGame">退出游戏</button>
+			</div>
+		</div>
+		<div id="quitGame" style="display: none;">
+			<h1>您确定要退出游戏吗?</h1>
+			<div class="div1">
+				<button id="sure">确定</button>
+				<button id="cancel">取消</button>
+			</div>	
+		</div>
+		<div id="result" style="display: none;">
+			<p class="result1">恭喜您战胜了AI!</p>
+			<p class="result2">很遗憾，您败给了AI!</p>
+		</div>
+		<canvas id="chess" width="450px" height="450px"></canvas>
+		<script src="js/jquery-2.2.1.js"></script>
+		<script src="js/ script1.js"></script>
+	</body>
+</html>

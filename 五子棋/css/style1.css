@@ -1,0 +1,110 @@
+body{
+	background:#E1EDE7;
+}
+canvas{
+	display: block;
+	margin:50px auto;
+	box-shadow: -2px -2px 2px #EFEFEF, 5px 5px 5px #B9B9B9;
+}
+.stage2{
+	height:220px;
+	width:200px;
+	position:absolute;
+	left:130px;
+	top:100px;
+	text-align: center;
+	overflow: hidden;
+	background:url(../images/background.jpg) left top;
+	border-radius:10px;
+}
+
+.stage2>h1{
+	margin-top:30px;
+	font-weight:bold;
+	font-size:20px;
+	font-family: "微软雅黑";
+	letter-spacing: 3px;
+	color:#FFFFE5;
+}
+.stage2>#start,.stage2>#end{
+	height:40px;
+	width:150px;
+	margin:30px auto 0;
+}
+.stage2>#restartGame{
+	margin:40px auto 10px;
+}
+.stage2>#end{
+	margin:10px auto;
+}
+.stage2 #start>button,.stage2 #end>button{
+	height:30px;
+	width:150px;
+	font-size:15px;
+	background:#81A8CE;
+	color:#FFF38F;
+	font-weight:bold;
+	border-radius:5px;
+}
+.stage2 #start>#startGame{
+	display: none;
+}
+#quitGame{
+	width:320px;
+	height:180px;
+	border-radius:10px;
+	background:#FFFFE5;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-160px;
+	margin-top:-90px;
+	text-align: center;
+	box-shadow: 2px 2px 5px #EFEFEF;
+}
+#quitGame h1{
+	font-size:20px;
+	margin-top:48px;
+	color:#009A2C;
+	font-weight:bold;
+}
+#quitGame div{
+	height:60px;
+	width:200px;
+	margin:30px auto;
+}
+#quitGame div button{
+	width:75px;
+	height:35px;
+	font-size:17px;
+	color:#0000FF;
+	font-weight:bold;
+	margin:0 5px;
+}
+#result{
+	width:240px;
+	height:100px;
+	border-radius:10px;
+	background:#FFFFE5;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-120px;
+	margin-top:-90px;
+	text-align: center;
+	box-shadow: 2px 2px 5px #EFEFEF;
+}
+#result p{
+	font-size:20px;
+	color:#08BECE;
+	font-weight: bold;
+}
+#result .result1{
+	display: block;
+	margin-top:40px;
+}
+#result .result2{
+	display: none;
+	margin-top:40px;
+	color:#130D8E;
+}

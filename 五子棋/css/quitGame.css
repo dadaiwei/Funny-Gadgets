@@ -1,0 +1,13 @@
+#quitGame{
+	width:320px;
+	height:180px;
+	border:1px solid red;
+	border-radius:10px;
+	background:#;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-160px;
+	margin-top:-90px;
+	text-align: center;
+}

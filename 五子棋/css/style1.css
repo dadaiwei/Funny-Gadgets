@@ -121,10 +121,8 @@ canvas{
 		border-radius:10px;
 		background:#FFFFE5;
 		position:absolute;
-		left:50%;
-		top:50%;
-		margin-left:-110px;
-		margin-top:60px;
+		left:220px;
+		top:370px;
 		text-align: center;
 		box-shadow: 2px 2px 5px #EFEFEF;
 	}

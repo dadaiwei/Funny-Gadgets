@@ -174,7 +174,7 @@ function play(){
 			}
 			if(!over){
 				me = !me;
-				computerAI();
+				setTimeout(computerAI, 400);
 			}
 		}	
 	}

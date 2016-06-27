@@ -1,4 +1,11 @@
-﻿body{
+﻿html{
+	min-width:500px;
+	height:100%;
+	margin:0;
+	padding:0;
+	max-width:1400px;
+}
+body{
 	background:url(../images/bg1.jpg) left top no-repeat;
 	background-size: 100% 100%; 
 }
@@ -46,34 +53,57 @@
 	display: none;
 }
 #quitGame{
-	width:320px;
-	height:180px;
+	width:260px;
+	height:130px;
 	border-radius:10px;
 	background:#FFFFE5;
 	position:absolute;
 	left:50%;
-	top:50%;
-	margin-left:-160px;
-	margin-top:-90px;
+	top:35px;
+	margin-left:-130px;
 	text-align: center;
 	box-shadow: 2px 2px 5px #EFEFEF;
 }
 #quitGame h1{
-	font-size:20px;
-	margin-top:48px;
+	font-size:18px;
+	margin-top:28px;
 	color:#009A2C;
 	font-weight:bold;
 }
 #quitGame div{
 	height:60px;
 	width:200px;
-	margin:30px auto;
+	margin:20px auto;
 }
 #quitGame div button{
-	width:75px;
-	height:35px;
-	font-size:17px;
+	width:68px;
+	height:34px;
+	font-size:16px;
 	color:#0000FF;
 	font-weight:bold;
 	margin:0 5px;
+}
+@media screen and (max-width:360px){
+	#quitGame{
+		width:220px;
+		height:110px;
+		margin-left:-110px;
+		left:50%;
+		top:18px;
+	}
+	#quitGame h1{
+	font-size:16px;
+	margin-top:25px;
+}
+	#quitGame div{
+		margin:16px auto;
+	}
+	#quitGame div button{
+		width:60px;
+		height:30px;
+		font-size:14px;
+		color:#0000FF;
+		font-weight:bold;
+		margin:0 5px;
+	}
 }

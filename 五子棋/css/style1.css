@@ -12,7 +12,7 @@ canvas{
 	width:200px;
 	position:absolute;
 	left:130px;
-	top:90px;
+	top:100px;
 	text-align: center;
 	overflow: hidden;
 	background:url(../images/background.jpg) left top;
@@ -57,7 +57,7 @@ canvas{
 	background:#FFFFE5;
 	position:absolute;
 	left:105px;
-	top:330px;
+	top:350px;
 	text-align: center;
 	box-shadow: 2px 2px 5px #EFEFEF;
 }

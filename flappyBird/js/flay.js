@@ -44,12 +44,6 @@ function init(){
 	
 	drawWall();
 	tid = setInterval(drawWall, 80);
-	tid2 = setInterval(function(){
-		if(restart == true){
-			ctx.clearRect(0, 0, cwidth, cheight);
-			drawWall();
-		}
-	}, 1000);
 }
 
 function UpPipe(x, y, width, height, img_src){

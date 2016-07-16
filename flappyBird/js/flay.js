@@ -34,9 +34,14 @@ function init(){
 	}else{
 		ctx = canvas.getContext('2d');
 	}
-	document.onclick = click;
+	
+	if(document.ontouchend){
+		document.ontouchend = touchend;
+	}else{
+		document.onclick = click;
+	}
 	document.onkeyup = keyup;
-	document.ontouchend = touchend;
+	
 	drawWall();
 	tid = setInterval(drawWall, 80);
 	tid2 = setInterval(function(){

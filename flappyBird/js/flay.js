@@ -41,14 +41,6 @@ function init(){
 		document.onclick = click;
 	}
 	document.onkeyup = keyup;
-	document.ondbclick = function(e){
-		var event = e || window.event;
-		if(event.preventDefault){
-			event.preventDefault();
-		}else{
-			event.returnValue = false;
-		}
-	};
 	
 	drawWall();
 	tid = setInterval(drawWall, 80);

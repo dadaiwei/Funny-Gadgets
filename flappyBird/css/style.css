@@ -1,0 +1,73 @@
+body{
+	background:url(../images/bg1.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
+}
+#canvas{
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -300px;
+	z-index:1;
+}
+#game{
+	display: none;
+	width:400px;
+	height:300px;
+	background:url(../images/logo.jpg);
+	background-size:100% 100%; 
+    margin:25px auto;
+}
+.game1{
+	position: absolute;
+	display: none;
+	width:400px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	left:50%;
+	margin-left: -200px;
+	top:50%;
+	margin-top:80px;
+}
+.game1>button{
+	height:50px;
+	width:120px;
+	border-radius:15px;
+	background:cornflowerblue;
+	color:#FFFFFF;
+	font-size:19px;
+	font-family: "微软雅黑";
+	font-weight:bold;
+	margin:0 10px;
+	text-align: center;
+	outline: none;
+}
+@media  screen and (max-width: 360px) {
+	.game1{
+		top:20%;
+		margin-top:0;
+	}
+}
+#restartGame{
+	height:50px;
+	width:150px;
+	border-radius:15px;
+	background:cornflowerblue;
+	color:#FFFFFF;
+	font-size:19px;
+	font-family: "微软雅黑";
+	font-weight:bold;
+	text-align: center;
+	outline: none;
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left:-75px;
+	z-index:2;
+}

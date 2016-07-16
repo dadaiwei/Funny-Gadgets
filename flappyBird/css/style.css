@@ -31,7 +31,7 @@ body{
 	left:50%;
 	margin-left: -200px;
 	top:50%;
-	margin-top:80px;
+	margin-top:25px;
 }
 .game1>button{
 	height:50px;
@@ -48,8 +48,7 @@ body{
 }
 @media  screen and (max-width: 360px) {
 	.game1{
-		top:20%;
-		margin-top:0;
+		margin-top:40px;
 	}
 }
 #restartGame{

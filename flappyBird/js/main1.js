@@ -1,7 +1,7 @@
 $(function(){
 	$("body").css("background", "#E0E0E0");	
-	setTimeout(init, 2000);
+	setTimeout(init, 3000);
 	$("#restartGame").click(function(){
-		history.go(0);
+		location.reload();
 	});
 });

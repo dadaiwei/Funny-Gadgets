@@ -293,7 +293,6 @@ a:hover,a:active{
 #introduction .left .tel p.address{
 	margin:10px;
 	font-size:13px;
-	height:26px;
 	line-height: 26px;
 }
 
@@ -342,8 +341,10 @@ a:hover,a:active{
 #product  .left .tel p.address{
 	margin:10px;
 	font-size:13px;
-	height:26px;
 	line-height: 26px;
+}
+#product .right .content {
+	overflow:hidden;
 }
 #product .right .content .content_item{
 	width:142px;
@@ -718,7 +719,6 @@ a:hover,a:active{
 #product_content .left .tel p.address{
 	margin:10px;
 	font-size:13px;
-	height:26px;
 	line-height: 26px;
 }
 #product_content .right .jiatingzhuangshi{

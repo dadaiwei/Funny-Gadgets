@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>资源编排</title>
+		<link rel="stylesheet" href="css/font.css">
+		<link rel= "stylesheet" href="css/jquery.snippet.min.css">
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div id="header">
+			<div class="logo">
+				<p>HIK<span>DATA</span></p>
+			</div>		
+		</div>
+		<div id="content">
+			<div class="resource">
+				<ul class="resource-ul" >
+					<li class="resource-li"> 
+						<a>计算与网络</a>
+						<ul class="resource-detail compuNet" style="display: none;">
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-zhuji"></span>
+								<span class="resource-name">主机</span>
+							</li>
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-siyouwangluo"></span>
+								<span class="resource-name">私有网络</span>
+							</li>
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-gongwangIP"></span>
+								<span class="resource-name">公网IP</span>
+							</li>
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-luyouqi"></span>
+								<span class="resource-name">路由器</span>
+							</li>
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-fuzaijunhengqi"></span>
+								<span class="resource-name">负载均衡器</span>
+							</li>
+						</ul>
+					</li>
+					<li class="resource-li">
+						<a>存储</a>
+						<ul class="resource-detail storage" style="display: none;">
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-yingpan"></span>
+								<span class="resource-name">硬盘</span>
+							</li>
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-nas"></span>
+								<span class="resource-name">NAS</span>
+							</li>
+						</ul>
+					</li>	
+					<li class="resource-li">
+						<a>数据库与缓存</a>
+						<ul class="resource-detail sql" style="display: none;">
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-guanxixingshujuku"></span>
+								<span class="resource-name">关系型数据库</span>
+							</li>
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-huancun"></span>
+								<span class="resource-name">缓存</span>			
+							</li>
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-mongodb"></span>
+								<span class="resource-name">MongoDB</span>	
+							</li>
+						</ul>
+					</li>				
+					<li class="resource-li">
+						<a>大数据平台</a>
+						<ul class="resource-detail bigData" style="display: none;">
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-hadoop"></span>
+								<span class="resource-name">Hadoop</span>							
+							</li>
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-spark"></span>
+								<span class="resource-name">Spark</span>	
+							</li>
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-zookeeper"></span>
+								<span class="resource-name">ZooKeeper</span>					
+							</li>
+						</ul>
+					</li>
+					<li class="resource-li">
+						<a>安全</a>
+						<ul class="resource-detail security" style="display: none;">
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-fanghuoqiang"></span>
+								<span class="resource-name">防火墙</span>						
+							</li>
+							<li draggable="true" class="drag-li">
+								<span class="iconfont icon-miyue"></span>
+								<span class="resource-name">密钥</span>	
+							</li>
+						</ul>
+				   </li>		
+				</ul>
+			</div>
+			<div class="description">
+				<div class="taps">
+					<ul class="description-tap">
+						<li class="tab tab-ziyuanpeizhi current">
+							<span class="iconfont icon-ziyuanpeizhi"></span>
+							<span class="tab-name ziyuanpeizhi">资源配置</span>
+						</li>
+						<li class="tab tab-gaojixuanxiang gaojixuanxiang-display">
+							<span class="iconfont icon-gaojixuanxiang"></span>
+							<span class="tab-name gaojixuanxiang">高级选项</span>
+						</li>
+					</ul>
+				</div>
+				<div class="configuration">
+					<ul class="configuration-ul">
+						<!--<li class="configuration-item ziyuanpeizhi-item"><span class="configuration-key">名称</span><div class="configuration-value name-value">1</span><span class="iconfont icon-bianji"></span></li>
+						<li class="configuration-item ziyuanpeizhi-item"><span class="configuration-key">描述</span><span class="configuration-value discription-value">2</span><span class="iconfont icon-bianji"></span></li>		-->
+					</ul>
+				</div>
+			</div>
+			<div class="canvas-container">
+				<div class="toolbar">
+					<button class="btn btn-clear">
+						<span class="iconfont icon-qingkong"></span>
+						<span class="text">清空</span>
+					</button>
+					<button class="btn btn-amplify">
+						<span class="iconfont icon-fangda"></span>
+						<span class="text">放大</span>
+					</button>
+					<button class="btn btn-lessen">
+						<span class="iconfont icon-suoxiao"></span>
+						<span class="text">缩小</span>
+					</button>
+					<button class="btn btn-submit">
+						<span class="iconfont icon-tijiao"></span>
+						<span class="text">提交</span>
+					</button>
+					<button class="btn btn-export">
+						<span class="iconfont icon-daochu"></span>
+						<span class="text">导出PNG</span>
+					</button>
+				</div>
+				<canvas width="705" height="536" id="canvas"></canvas>
+				<p class="tooltip fangdaTooltip">当前已经放大到最大.</p>
+				<p class="tooltip suoxiaoTooltip">当前已经缩小到最小.</p>
+				<p class="tooltip drag-tooltip"></p>
+				<ul id="contextmenu" style="display: none;">    
+		            <li><a>顺时针旋转</a></li>
+		            <li><a>逆时针旋转</a></li>    
+		            <li><a>放大</a></li>
+		            <li><a>缩小</a></li>
+		             <li><a>撤销上一次操作</a></li>    
+		            <li><a>删除该节点</a></li>
+	            </ul>
+			</div>	
+		</div>
+		<div id="footer">
+			<p>©HIKDATA. All rights reserved.</p>
+		</div>
+		<div class="layer">		
+		</div>
+		<div class="modal">
+				<div class="modal-header">
+					<h4>修改<span class="header-title">主机</span>配置 <span class="iconfont icon-x"></span></h4>		
+				</div>
+				<div class="modal-content">
+					<form>
+						<div class="item">
+							<div class="label">名称</div>
+							<div class="control">
+								<input type="text" class="control-name">
+							</div>
+						</div>
+						<div class="item">
+							<div class="label">描述</div>
+							<div class="control">
+								<textarea class="control-description"></textarea>
+							</div>
+						</div>
+						<div class="form-actions">
+							<input class="button sure" type="button" value="确定">
+							<input class="button cancel" type="button" value="取消">
+						</div>
+					</form>		
+				</div>
+		</div>
+		<script src="lib/jquery.js"></script>
+		<script src="lib/jquery.snippet.min.js"></script>
+		<script src="lib/jtopo-0.4.8-min.js"></script>
+		<script src="lib/jquery-ui.min.js"></script>
+		<script src="script/main.js"></script>
+	</body>
+</html>

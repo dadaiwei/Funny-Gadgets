@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #FFF;
+	font-family: "arial, helvetica, sans-serif";
+}
+a{
+	color: #FFFDEC;
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+
+#header{
+	height: 60px;
+	min-width: 1300px;
+	background-color: #F9F9F9;
+	box-shadow: 0px 1px 10px #CCCCCC;
+	background-color: #D7FFFF;	
+}
+#header .logo{
+	height: 60px;
+	width: 200px;
+	float: left;
+	margin-left: 70px;
+}
+#header .logo p{
+	color: #0000FF;
+	height: 60px;
+	line-height: 60px;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 2px 2px 3px #999999;
+	font-size: 24px;
+}
+#header .logo p span{
+	color: #FF3030;
+}
+
+
+#content{
+	position: relative;
+	min-width: 1300px;
+	padding: 20px 0px;	
+	margin-top: 2px;
+	/*background-color: #F1F4F6;*/
+	box-shadow: 0px 1px 10px #CCCCCC;	
+}
+#content .resource{
+	float: left;
+	width: 200px;
+	height: 540px;
+	margin-left: 25px;
+	font-size: 15px;
+	color: #58666E;
+}
+/*#content .resource-ul{
+	background-color: #FFF;
+}*/
+#content .resource-li>a, #content .resource-detail li{
+	height: 45px;
+	line-height: 45px;
+} 
+#content .resource-li>a{
+	font-weight: bold;
+	display: block;
+}
+#content .resource-ul li{
+	font-size: 15px;
+	font-weight: 200;
+	text-align: center;
+	cursor: pointer;
+}
+#content .resource-ul li>a:hover{
+	background-color: #CCC6C6;
+}
+#content .resource-li>a{
+	background-color: #929292;
+}
+#content .resource-li a:hover{
+	color: #0000DE;
+}
+#content .resource-ul .resource-li>a{
+	border-bottom: 1px solid #E2E2E2;
+}
+#content .resource-detail li{
+	text-align: left;
+	vertical-align: middle;
+}
+#content .resource-detail li{
+	background-color: #F5F5F5;
+}
+#content .resource-detail li:hover{
+	color: #0000DE;
+	background-color: #E3E3E3;
+}
+#content .resource-detail li.drag-li-moving{
+	color: #58666E;  
+	background-color: rgba(0, 0, 0, 0)!important;
+}
+#content .resource-detail .resource-name{
+	margin-left: 2px;
+}
+
+#content .compuNet>li{
+	padding-left: 58px;
+}
+#content .compuNet .iconfont{
+	vertical-align: -1px;
+}
+#content .storage>li{
+	padding-left: 70px;
+}
+#content .storage .iconfont{
+	vertical-align: -2px;
+}
+#content .sql>li{
+	padding-left: 50px;
+}
+#content .sql .iconfont{
+	vertical-align: -1px;
+}
+#content .bigData>li{
+	padding-left: 55px;
+}
+#content .bigData .iconfont{
+	vertical-align: -1px;
+}
+#content .bigData .icon-hadoop{
+	vertical-align: -2px;
+}
+#content .security>li{
+	padding-left: 70px;
+}
+#content .security .iconfont{
+	vertical-align: -1px;
+}
+#content .canvas-container{
+	position: relative;
+	height: 540px;
+	margin-left: 260px;
+	margin-right: 380px;
+	background-color: #E1EDE7;	
+}
+#content .canvas-container #canvas{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 705px;
+	height: 536px;
+	margin-left: -352px;
+	margin-top: -268px;
+	z-index: 1;
+	cursor: pointer;
+}
+#content .canvas-container .toolbar{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+}
+#content .canvas-container .toolbar .btn{
+	padding: 5px 10px;
+	font-size: 13px;
+	background-color: #656565;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 5px;
+	margin:0 5px;
+	outline: none;
+	cursor: pointer;
+}
+#content .canvas-container .toolbar .iconfont{
+	font-size: 12px;
+}
+#content .canvas-container .toolbar .btn:hover{
+	background-color: #5374B0;
+}
+#content .canvas-container .toolbar .btn .iconfont{
+	font-size: 15px;
+}
+#content .canvas-container .toolbar .btn .text{
+	margin-left: 1px;
+}
+#content .canvas-container .tooltip{
+	position: absolute;
+	top: 22px;
+	right: 50px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	color: #E11A70;
+	display: none;
+	font-weight: bold;
+}
+#content .canvas-container .drag-tooltip{
+	top: 60px;
+	right: 10px;
+}
+#content .canvas-container #contextmenu{
+	position: absolute;
+	width: 130px;
+	background: #EEEEEE;	
+	z-index: 3;
+}
+#content .canvas-container #contextmenu li{
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 10px;
+	text-align: left;
+	border-bottom: 1px solid #AAAAAA;
+	cursor: pointer;
+}
+#content .canvas-container #contextmenu li:hover{
+	background: #FFFFFF;
+}
+#content .canvas-container #contextmenu li a{
+	display: block;
+	font-size: 15px;
+	color: #000000;
+}
+#content .description{
+	float: right;
+	width: 320px;
+	height: 540px;
+	margin-right: 25px;
+	background-color: #E6E6E6;
+	font-size: 13px;
+	color: #58666E;
+}
+#content .description .taps{
+	background-color: #FFFFFF;
+	width: 320px;
+	height: 40px;
+	overflow: hidden;
+}
+#content .description .taps .description-tap .tab{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 5px 0px;
+	cursor: pointer;
+	margin: 0;
+}
+#content .description .taps .description-tap .tab-ziyuanpeizhi,#content .description .taps .description-tap .tab-gaojixuanxiang{
+	width: 120px;
+}
+#content .description .taps .description-tap .tab-ziyuanpeizhi{
+	float: left;
+	background-color: #FFFFFF;	
+}
+#content .description .taps .description-tap .tab-gaojixuanxiang{
+	display: none;
+	margin-left: 120px;
+	background-color: #FFFFFF;
+}
+#content .description .taps .description-tap .gaojixuanxiang-display{
+	display: block;
+}
+#content .description .taps .description-tap  .hover{
+	background-color: #AAAAAA;
+}
+#content .description .taps .description-tap .current{
+	background-color: #E6E6E6;
+}
+#content .description .taps .description-tap  .ziyuanpeizhi,#content .description .taps .description-tap  .gaojixuanxiang{
+	margin-left: 2px;
+}
+#content .configuration{
+	margin-top: 10px;
+}
+#content .configuration .configuration-ul{
+	padding: 10px 30px;
+}
+#content .configuration .configuration-item{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #AAAAAA;
+	display: none;
+}
+#content .configuration .ziyuanpeizhi-item{
+	display: block;
+}
+#content .configuration .ziyuanpeizhi-item .configuration-key{
+	float: left;
+}
+#content .configuration .configuration-item .configuration-value{
+	display: block;
+	margin-left: 120px;
+}
+#content .configuration .ziyuanpeizhi-item .icon-bianji{
+	display: none;
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+	vertical-align: 10px;
+}
+#content .configuration .ziyuanpeizhi-item .icon-bianji:hover{
+	color: #000044;
+}
+#content .configuration .configuration-item:hover .icon-bianji{
+	float: right;
+	margin-right: 5px;
+	display: block;
+}
+
+
+#footer{
+	height: 40px;
+	line-height: 40px;
+	margin-top: 2px;
+	background-color: #F9F9F9;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0769AD;
+}
+
+
+.layer{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #EFEFEF;
+	opacity: 0.5;
+	z-index: 4;
+}
+.modal{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: auto;
+	margin-left: -300px;
+	margin-top: -200px;
+	border: 1px solid #AAAAAA;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 5px #000000;
+	z-index: 5;
+}
+.modal .modal-header{
+	height: 36px;
+	line-height: 36px;
+	background: #2A2D2E;
+	padding: 5px 20px;
+}
+.modal .modal-header h4{
+	font-size: 17px;
+	color: #FFFFFF;
+	font-weight: lighter;
+} 
+.modal .modal-header h4 .icon-x{
+	float: right;
+	margin-right: 0px;
+	font-size: 14px;
+	font-weight: 800;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.modal .modal-header h4 .icon-x:hover{
+	color: #777777;
+}
+.modal .modal-content{
+	min-height: 200px;
+}
+.modal .modal-content form{
+	min-height: 150px;
+	height: auto;
+	padding-top: 30px;
+}
+.modal .modal-content form .item{
+	color: #333333;
+	padding-left: 60px;
+	margin-bottom: 20px;
+}
+.modal .modal-content form .item .label{
+	float: left;
+	height: 30px;
+	width: 50px;
+	text-align: center;
+	line-height: 30px;
+}
+.modal .modal-content form .item .control input, .modal .modal-content form .item .control textarea{
+	text-indent: 10px;
+	border: 2px solid #CBCAD8;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.modal .modal-content form .item .control input:focus, .modal .modal-content form .item .control textarea:focus{
+	border-color: #008800;
+}
+.modal .modal-content form .item .control input{
+	width: 200px;
+	height: 30px;
+}
+.modal .modal-content form .item .control textarea{
+	width: 400px;
+	padding-top: 5px;
+	height: 45px;
+}
+.modal .modal-content .form-actions{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	line-height: 50px;
+	background: #EEEEEE;
+	border-top: 1px solid #CACBD8;
+}
+.modal .modal-content .form-actions .button{
+	width: 60px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 5px;
+	color: #FFFFFF;
+	outline: none;
+	cursor: pointer;
+}
+.modal .modal-content .form-actions .button:hover{
+	
+}
+.modal .modal-content .form-actions .sure{
+	background-color: #4FAE7B;
+	margin-left: 120px;
+}
+.modal .modal-content .form-actions .sure:hover{
+	background-color: #00B800;
+}
+.modal .modal-content .form-actions .cancel{
+	background-color: #384C4A;
+	margin-left: 5px;
+}
+.modal .modal-content .form-actions .cancel:hover{
+	background-color: #000035;
+}

@@ -1,4 +1,4 @@
-#  Projects  # 
+#  Funny-Gadgets  # 
  
 共11个小项目，包含JaneShop、吉利汽车官网首页、慕课网首页、报纸页、新世界、装饰公司官网、资源编排，flappyBird、绚丽的时钟、五子棋三个小玩意。
 <br>

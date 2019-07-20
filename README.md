@@ -23,7 +23,7 @@
 ## 报纸页 ##
 #### 仿报纸做的静态网页 ####
 链接地址：[http://dadaiwei.github.io/Funny-Gadgets/报纸页](http://dadaiwei.github.io/Funny-Gadgets/报纸页)
-![](https://user-gold-cdn.xitu.io/2019/7/20/16c0ed3960823b99?w=1575&h=709&f=png&s=1273039)
+![](https://i.imgur.com/hcOSMQv.jpg)
 
 ## 新世界 ##
 链接地址：[http://dadaiwei.github.io/Funny-Gadgets/新世界](http://dadaiwei.github.io/Funny-Gadgets/新世界)

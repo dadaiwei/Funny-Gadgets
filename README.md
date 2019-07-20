@@ -23,7 +23,11 @@
 ## 报纸页 ##
 #### 仿报纸做的静态网页 ####
 链接地址：[http://dadaiwei.github.io/Funny-Gadgets/报纸页](http://dadaiwei.github.io/Funny-Gadgets/报纸页)
-![](https://i.imgur.com/hcOSMQv.jpg)
+![](https://user-gold-cdn.xitu.io/2019/7/20/16c0ed3960823b99?w=1575&h=709&f=png&s=1273039)
+
+## 新世界 ##
+链接地址：[http://dadaiwei.github.io/Funny-Gadgets/新世界](http://dadaiwei.github.io/Funny-Gadgets/新世界)
+![](https://user-gold-cdn.xitu.io/2019/7/20/16c0ed3960823b99?w=1575&h=709&f=png&s=1273039)
 
 ## 装饰公司官网 ##
 #### 装饰公司官网，共13个页面，包含首页、公司介绍、产品管理、新闻动态、下载专区、人才招聘、联系我们、留言系统等功能 ####  
